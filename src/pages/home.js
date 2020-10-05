@@ -20,7 +20,7 @@ const Home = (props) => {
         <div>
             <Table striped hover bordered style={{marginTop : "50px"}}>
                 <thead>
-                    <tr style={{textAlign : "center"}, {color : "green"}}>
+                    <tr style={{textAlign : "center", color : "green"}}>
                         <th></th>
                         <th><h3>WE BUY</h3></th>
                         <th><h3>EXCHANGE RATE</h3></th>
