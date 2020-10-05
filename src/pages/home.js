@@ -13,9 +13,9 @@ const Home = (props) => {
         props.getExchange();
         props.getBuy();
         props.getSell();
-    }, []);
-
-    console.log(props.buy)
+    }, [props]);
+     
+    //console.log(props.buy)
     return(
         <div>
             <Table striped hover bordered style={{marginTop : "50px"}}>
